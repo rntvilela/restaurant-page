@@ -1,9 +1,10 @@
 function home() {
 	const content = document.getElementById('content');
-	const head = document.createElement('div');
+	const home = document.createElement('div');
 
-	head.textContent = 'Nordic Cousine';
-	content.appendChild(head);
+	home.id = 'home';
+	home.textContent = 'Home Page';
+	content.appendChild(home);
 }
 
 export { home };
