@@ -22,7 +22,7 @@ function navbar() {
 		const menu    =    document.getElementById('menu');
 		const contact = document.getElementById('contact');
 		
-		home.style.display    = 'block';
+		home.style.display    = 'grid';
 		menu.style.display    = 'none';
 		contact.style.display = 'none';
 	});
@@ -33,7 +33,7 @@ function navbar() {
 		const contact = document.getElementById('contact');
 		
 		home.style.display    = 'none';
-		menu.style.display    = 'block';
+		menu.style.display    = 'grid';
 		contact.style.display = 'none';
 	});
 	
@@ -44,7 +44,7 @@ function navbar() {
 		
 		home.style.display    = 'none';
 		menu.style.display    = 'none';
-		contact.style.display = 'block';
+		contact.style.display = 'grid';
 	});
 }
 

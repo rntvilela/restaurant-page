@@ -20,11 +20,43 @@ html, body {
 	background-color: #18181b;
 	justify-content: center;
 	align-items: center;
-	padding: 1% 30% 1% 30%;
+	padding: 2% 30% 2% 30%;
+	font-size: 30px;
 }
 
+#home {
+	display: grid;
+	grid-template-columns: 60%;
+    justify-content: center;
+}
+
+#home_tittle {
+	margin-top: 5%;
+	font-size: 30px;
+	padding: 2%;
+}
+
+#home_text {
+	text-align: justify;
+	margin-top: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#home_hours {
+	margin-top: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#home_location {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
 
 #footer {
-	padding: 1% 0 1% 0;
+	padding: 2% 0 2% 0;
 	background-color: #18181b;
 }
