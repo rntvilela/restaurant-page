@@ -56,6 +56,29 @@ html, body {
 	background-color: #18181b;
 }
 
+#menu {
+	display: grid;
+	grid-template-columns: 60%;
+    justify-content: center;
+}
+
+#menu_tittle {
+	margin-top: 5%;
+	font-size: 30px;
+	padding: 2%;
+}
+
+#appetizers {
+	margin-top: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#appetizers_tittle {
+	font-size: 25px;
+	margin-bottom: 2%;
+}
+
 #footer {
 	padding: 2% 0 2% 0;
 	background-color: #18181b;
