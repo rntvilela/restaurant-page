@@ -40,6 +40,8 @@ html, body {
 	text-align: justify;
 	margin-top: 5%;
 	padding: 2%;
+	padding-right: 7%;
+	padding-left: 7%;
 	background-color: #18181b;
 }
 
@@ -77,6 +79,77 @@ html, body {
 #appetizers_tittle {
 	font-size: 25px;
 	margin-bottom: 2%;
+}
+
+#main_courses {
+	margin-top: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#main_courses_tittle {
+	font-size: 25px;
+	margin-bottom: 2%;
+}
+
+#meat_dishes {
+	margin-top: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#meat_dishes_tittle {
+	font-size: 25px;
+	margin-bottom: 2%;
+}
+
+#veg_options {
+	margin-top: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#veg_options_tittle {
+	font-size: 25px;
+	margin-bottom: 2%;
+}
+
+#desserts {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	background-color: #18181b;
+}
+
+#desserts_tittle {
+	font-size: 25px;
+	margin-bottom: 2%;
+}
+
+#contact {
+	display: grid;
+	grid-template-columns: 60%;
+    justify-content: center;
+}
+
+#contact_tittle {
+	margin-top: 5%;
+	font-size: 30px;
+	padding: 2%;
+}
+
+#contact_text {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	padding: 2%;
+	padding-right: 7%;
+	padding-left: 7%;
+	background-color: #18181b;
+}
+
+#img_div {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
 #footer {

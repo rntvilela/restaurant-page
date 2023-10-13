@@ -44,8 +44,8 @@ function home() {
 	home_hours.appendChild(thursday);
 	
 	const friday = document.createElement('div');
-	friday.textContent = 'Thursday: 6am - 10pm';
-	home_hours.appendChild(thursday);
+	friday.textContent = 'Friday: 6am - 10pm';
+	home_hours.appendChild(friday);
 	
 	const saturday = document.createElement('div');
 	sunday.textContent = 'Saturday: 8am - 10pm';
@@ -53,7 +53,7 @@ function home() {
 
 	const home_location = document.createElement('div');
 	home_location.id = 'home_location';
-	home_location.textContent = '298, R. Euríco Vanderlei Morais Carva, Campinas, São Paulo'
+	home_location.textContent = '298, R. Ragnar Lothbrok, Campinas, São Paulo'
 
 	home.appendChild(home_tittle);
 	home.appendChild(home_text);
